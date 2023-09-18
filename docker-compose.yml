@@ -26,4 +26,6 @@ services:
       - db
     networks:
       - backend
-    
+    environment:
+      APP_PORT: 8080
+      DATABASE_URL: postgres://postgres:postgres@password:5432/studyproj
