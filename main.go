@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/vrischmann/envconfig"
-	"example/go-study-proj/router"
-	c "example/go-study-proj/config"
+	"example/go-study-proj/internal/router"
+	c "example/go-study-proj/configs"
 )
 
 func main() {
